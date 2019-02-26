@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #e6e6e6;
+}
+
+.cont_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.todo_list {
+  margin: 0;
+  font-weight: 300;
+}
+
+.add_task {
+  width: 100%;
+  height: 36px;
+  border-radius: 20px;
+  text-align: center;
+  outline: none;
+  background-color: #ffffff;
+  -webkit-box-shadow: 1px 1px 5px 0px #adadad;
+  box-shadow: 1px 1px 5px 0px #adadad;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.add_task:hover {
+  border: 1px solid red;
+}
+
+.tasks_container {
+  width: 100%;
+  padding: 3%;
+  text-align: center;
+  list-style: none;
+}
+
+.task_name {
+  display: inline-block;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.task_remove_button {
+  display: inline-block;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-left: 10px;
+  color: red;
+}
+
+.buscadorIn {
+  width: 100%;
+  height: 41px;
+  margin: 24px 0;
+  border-radius: 39px;
+  text-align: center;
+  outline: none;
+}
+
+.contCard {
+  background-color: aqua;
+  text-align: center;
+  width: 20%;
+  margin-top: 24px;
+}
+
+.tituloBanda {
+  color: red;
+}
+
+.img {
+  display: block;
+  width: 100%;
+}
+
+.botonComprar {
+  background-color: blueviolet;
+  color: white;
+  width: 100%;
+}
+
+.borrar {
+  color: red;
+  float: right;
+  cursor: pointer;
+}
